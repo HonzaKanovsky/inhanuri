@@ -1,0 +1,52 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "notice": "Avis",
+    "community": "Communauté",
+    "questions": "Q&A"
+  },
+  "notFound": {
+    "title": "404 - NON TROUVÉ",
+    "subtitle": "Cette page n'existe pas",
+    "backButton": "Retour"
+  },
+  "homePage": {
+    "title": "INHANURI",
+    "subtitle-one": "The value of We,",
+    "subtitle-two": "The Better Tommorow:",
+    "notice": "Avis",
+    "community": "Communauté",
+    "questions": "Q&A",
+    "newPost": "Nouveau post communautaire",
+    "newQuestion": "Q&A"
+  },
+  "notice": {
+    "title": "Avis",
+    "table": {
+      "title": "Titre",
+      "tag": "Étiquette",
+      "date": "Date",
+      "views": "Vues"
+    }
+  },
+  "community": {
+    "title": "Communauté",
+    "table": {
+      "title": "Titre",
+      "tag": "Étiquette",
+      "date": "Date",
+      "comments": "Commentaires",
+      "views": "Vues"
+    }
+  },
+  "questions": {
+    "title": "Questions",
+    "table": {
+      "title": "Titre",
+      "tag": "Étiquette",
+      "date": "Date",
+      "answers": "Réponses",
+      "views": "Vues"
+    }
+  }
+}

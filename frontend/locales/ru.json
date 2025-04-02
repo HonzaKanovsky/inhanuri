@@ -1,0 +1,52 @@
+{
+  "navbar": {
+    "home": "Главная",
+    "notice": "Уведомления",
+    "community": "Сообщество",
+    "questions": "Q&A"
+  },
+  "notFound": {
+    "title": "404 - НЕ НАЙДЕНО",
+    "subtitle": "Эта страница не существует",
+    "backButton": "Назад"
+  },
+  "homePage": {
+    "title": "INHANURI",
+    "subtitle-one": "The value of We,",
+    "subtitle-two": "The Better Tommorow:",
+    "notice": "Уведомления",
+    "community": "Сообщество",
+    "questions": "Q&A",
+    "newPost": "Новый пост в сообществе",
+    "newQuestion": "Q&A"
+  },
+  "notice": {
+    "title": "Уведомления",
+    "table": {
+      "title": "Заголовок",
+      "tag": "Метка",
+      "date": "Дата",
+      "views": "Просмотры"
+    }
+  },
+  "community": {
+    "title": "Сообщество",
+    "table": {
+      "title": "Заголовок",
+      "tag": "Метка",
+      "date": "Дата",
+      "comments": "Комментарии",
+      "views": "Просмотры"
+    }
+  },
+  "questions": {
+    "title": "Вопросы и ответы",
+    "table": {
+      "title": "Заголовок",
+      "tag": "Метка",
+      "date": "Дата",
+      "answers": "Ответы",
+      "views": "Просмотры"
+    }
+  }
+}

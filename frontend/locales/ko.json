@@ -1,0 +1,52 @@
+{
+  "navbar": {
+    "home": "홈",
+    "notice": "공지사항",
+    "community": "커뮤니티",
+    "questions": "Q&A"
+  },
+  "notFound": {
+    "title": "404 - 페이지를 찾을 수 없습니다",
+    "subtitle": "이 페이지는 존재하지 않습니다",
+    "backButton": "뒤로 가기"
+  },
+  "homePage": {
+    "title": "INHANURI",
+    "subtitle-one": "The value of We,",
+    "subtitle-two": "The Better Tommorow:",
+    "notice": "공지사항",
+    "community": "커뮤니티",
+    "questions": "Q&A",
+    "newPost": "새로운 커뮤니티 글",
+    "newQuestion": "Q&A"
+  },
+  "notice": {
+    "title": "공지사항",
+    "table": {
+      "title": "제목",
+      "tag": "태그",
+      "date": "날짜",
+      "views": "조회수"
+    }
+  },
+  "community": {
+    "title": "커뮤니티",
+    "table": {
+      "title": "제목",
+      "tag": "태그",
+      "date": "날짜",
+      "comments": "댓글",
+      "views": "조회수"
+    }
+  },
+  "questions": {
+    "title": "질문과 답변",
+    "table": {
+      "title": "제목",
+      "tag": "태그",
+      "date": "날짜",
+      "answers": "답변",
+      "views": "조회수"
+    }
+  }
+}

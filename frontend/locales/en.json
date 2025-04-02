@@ -1,0 +1,52 @@
+{
+  "navbar": {
+    "home": "Home",
+    "notice": "Notice",
+    "community": "Community",
+    "questions": "Q&A"
+  },
+  "notFound": {
+    "title": "404 - NOT FOUND",
+    "subtitle": "This page does not exist",
+    "backButton": "Go Back"
+  },
+  "homePage": {
+  "title": "INHANURI",
+  "subtitle-one": "The value of We,",
+  "subtitle-two": "The Better Tommorow:",
+  "notice": "Notice",
+  "community": "Community",
+  "questions": "Q&A",
+  "newPost": "New community post",
+  "newQuestion": "Q&A"
+  },
+  "notice": {
+    "title": "Notice",
+    "table": {
+        "title":"Title",
+        "tag": "Tag",
+        "date": "Date",
+        "views": "Views"
+    }
+  },
+  "community": {
+    "title": "Community",
+    "table": {
+        "title":"Title",
+        "tag": "Tag",
+        "date": "Date",
+        "comments": "Comments",
+        "views": "Views"
+    }
+  },
+  "questions": {
+    "title": "Questions",
+    "table": {
+        "title":"Title",
+        "tag": "Tag",
+        "date": "Date",
+        "answers": "Answers",
+        "views": "Views"
+    }
+  }
+}

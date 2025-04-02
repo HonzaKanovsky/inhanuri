@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-background-bottom {
+  @apply bg-gradient-to-b from-black_olive-400 bg-forest_green-500;
+}
+
+.gradient-background-right {
+  @apply bg-gradient-to-r from-black_olive-400 bg-forest_green-500;
+}
+
+.gradient-background-bottom-right {
+  @apply bg-gradient-to-br from-black_olive-400 bg-forest_green-500;
+}
+
+
+.ql-editor img {
+  display: block;
+  /* Make the image a block-level element */
+  margin: 0 auto;
+  /* Center the image horizontally */
+}
+
+.ql-editor .image-wrapper {
+  text-align: center;
+  /* Center the image horizontally */
+}
+
+.prose img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-height: 30;
+}
+
+.prose .h1,
+.h2,
+.h3 {
+  margin: 0px;
+  padding: 0;
+}
+
+.ql-container {
+  width: auto;
+  /* Adjust as needed */
+  height: 30vh;
+  /* Adjust as needed */
+  border: 1px solid #ccc;
+  /* Optional: Add a border for visual clarity */
+}
+
+.bg-hero {
+  background-image: url('/src/assets/img/inha_image.jpg');
+}
+
+
+@media (min-width: 1024px) and (max-height: 1400px) {
+  .ipad-pro-layout {
+      flex-direction: column !important;  /* Stack sections in a column */
+      height: auto; /* Prevent forcing equal height */
+      width: 100%;
+  }
+}
+
+@media (min-width: 1024px) and (max-height: 1400px) {
+  .ipad-hide-img {
+      display: none !important; /* Hide images on iPad Pro portrait */
+  }
+}
+
+/* Custom styles to reduce space */
+.prose {
+  line-height: 1.6; /* Adjust line height for better spacing */
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  margin-top: 0.8rem; /* Reduce margin on headings */
+  margin-bottom: 0.4rem; /* Reduce space below headings */
+}
+
+.prose p, .prose strong {
+  margin-top: 0.4rem; /* Reduce margin above paragraphs */
+  margin-bottom: 0.4rem; /* Reduce space below paragraphs */
+}
+
+.prose ul, .prose ol {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.prose li {
+  margin-bottom: 0.25rem;
+}
+
+.prose h1.ql-align-center,
+.prose h2.ql-align-center,
+.prose h3.ql-align-center,
+.prose p.ql-align-center,
+.prose ul.ql-align-center,
+.prose ol.ql-align-center,
+.prose li.ql-align-center {
+  text-align: center;
+}
+
+/* Add this CSS to your styles */
+.fixed-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure it's above other content */
+  background-color: white; /* Ensure it has a background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds shadow */
+  padding: 10px; /* Optional: adjust padding */
+}
