@@ -8,15 +8,15 @@ https://www.nurinews.kr/
 - **Notice Board**: Official announcements and updates
 - **Q&A Forum**: Tag-based question system with answers
 - **Community Board**: User discussions with comments/likes
-- **Password-protected Editing**: No login required for posting
+- **Password-protected Editing**: No login required for posting (one time passwords)
 - **Admin Dashboard**: Content management system
 
 ## 🛠 Technology Stack
 | Component       | Technology               |
 |----------------|--------------------------|
 | **Frontend**   | Vue.js 3, Vuetify        |
-| **Backend**    | Spring Boot 3, Java 17   |
-| **Database**   | PostgreSQL 15            |
+| **Backend**    | Spring Boot 3, Java 21   |
+| **Database**   | PostgreSQL               |
 | **Auth**       | Password-based editing   |
 | **Infra**      | Docker, Nginx            |
 
