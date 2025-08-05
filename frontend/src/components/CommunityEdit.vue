@@ -52,8 +52,8 @@ const updatePost = async () => {
   }
 
   loading.value = true;
-  const updateUrl = isLoggedIn.value? "/admin/community" : `/community/${route.params.id}`;
-  const headers = isLoggedIn.value? { Authorization: `Bearer ${accessToken.value}` } : {};
+  const updateUrl = isLoggedIn.value ? "/admin/community" : `/community/${route.params.id}`;
+  const headers = isLoggedIn.value ? { Authorization: `Bearer ${accessToken.value}` } : {};
 
   try {
     await axios.put(updateUrl, {
@@ -61,8 +61,8 @@ const updatePost = async () => {
       title: title.value,
       content: content.value,
       tag: tag.value,
-      password: isLoggedIn.value? undefined : password.value,
-      token: isLoggedIn.value? undefined : token.value,
+      password: isLoggedIn.value ? undefined : password.value,
+      token: isLoggedIn.value ? undefined : token.value,
     }, { headers });
 
     alert("Post updated successfully!");
@@ -82,15 +82,15 @@ const deletePost = async () => {
   }
 
   deleteLoading.value = true;
-  const deleteUrl = isLoggedIn.value? "/admin/community" : `/community/${route.params.id}`;
-  const headers = isLoggedIn.value? { Authorization: `Bearer ${accessToken.value}` } : {};
+  const deleteUrl = isLoggedIn.value ? "/admin/community" : `/community/${route.params.id}`;
+  const headers = isLoggedIn.value ? { Authorization: `Bearer ${accessToken.value}` } : {};
 
   try {
     await axios.delete(deleteUrl, {
       headers,
       data: {
         id: community.value.id,
-        token: isLoggedIn.value? undefined : token.value,
+        token: isLoggedIn.value ? undefined : token.value,
       },
     });
 
@@ -135,7 +135,8 @@ onMounted(fetchCommunityPost);
           class="w-full h-60 border rounded bg-white" />
       </div>
 
-      <button type="submit" class="w-full bg-forest_green-600 text-white py-2 rounded hover:bg-forest_green-500 disabled:opacity-50"
+      <button type="submit"
+        class="w-full bg-forest_green-600 text-white py-2 rounded hover:bg-forest_green-500 disabled:opacity-50"
         :disabled="loading">
         {{ loading ? "Updating..." : "Update Post" }}
       </button>
